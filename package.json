@@ -4,9 +4,9 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name tharusha-md",
-      "stop": "pm2 stop tharusha-md",
-     "restart": "pm2 restart tharusha-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name shonu-md",
+      "stop": "pm2 stop shonu-md",
+     "restart": "pm2 restart shonu-md"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "github:seiren-primrose/PL-Baileys",              
