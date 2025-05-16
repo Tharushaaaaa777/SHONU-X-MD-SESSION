@@ -75,16 +75,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "THARUSHA-MD=" + string_session;
+                        let md = "SHONU-X-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*👋𝐓𝐇𝐀𝐑𝐔𝐒𝐇𝐀-𝐌𝐃 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝...*\n\n*🅳🅾🅽'🆃 🆂🅷🅰🆁🅴 🆃🅷🅸🆂 🅲🅾🅳🅴 🆆🅸🆃🅷 🅰🅽🆈🅾🅽🅴!*\n\n*ꜱʀɪ ʟᴀɴᴋᴀɴ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ - ᴍʀ.ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ.*\n\n🔰 *🅹🅾🅸🅽 -*https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45\n\n🔰 *🅶🅸🆃🅷🆄🅱 🆁🅴🅿🅾 -*https://github.com/Tharushaaaaa777/THARUSHA-XMD\n\n> *𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰 〽️𝙳*`; 
+                        let desc = `*👋𝐒𝐇𝐎𝐍𝐔-𝐗-𝐌𝐃 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 . . .*\n\n*🅳🅾🅽'🆃 🆂🅷🅰🆁🅴 🆃🅷🅸🆂 🅲🅾🅳🅴 🆆🅸🆃🅷 🅰🅽🆈🅾🅽🅴!*\n\n*ꜱʀɪ ʟᴀɴᴋᴀɴ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ - ᴍʀ.ʟᴀᴋꜱʜᴀɴ ᴅᴀᴍᴀʏᴀɴᴛʜᴀ.*\n\n🔰 *🅹🅾🅸🅽 -*https://whatsapp.com/channel/0029Vb5pvxO9cDDeMveqo31B\n\n🔰 *🅶🅸🆃🅷🆄🅱 🆁🅴🅿🅾 -*https://github.com/username/repo name\n\n> *𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙷𝙾𝙽𝚄 𝚇 〽️𝙳*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴛʜᴀʀᴜꜱʜᴀ-ᴍᴅ",
+title: "ꜱʜᴏɴᴜ-x-ᴍᴅ",
 thumbnailUrl: "https://i.ibb.co/5gQ13m8p/0ef38c1555c87f01.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5pvxO9cDDeMveqo31B",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -93,14 +93,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*👋𝐓𝐇𝐀𝐑𝐔𝐒𝐇𝐀-𝐌𝐃 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝...*\n\n*🅳🅾🅽'🆃 🆂🅷🅰🆁🅴 🆃🅷🅸🆂 🅲🅾🅳🅴 🆆🅸🆃🅷 🅰🅽🆈🅾🅽🅴!*\n\n*ꜱʀɪ ʟᴀɴᴋᴀɴ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ - ᴍʀ.ᴛʜᴀʀᴜꜱʜᴀ ꜱᴀɴᴅɪᴘᴀ.*\n\n🔰 *🅹🅾🅸🅽 -*https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45\n\n🔰 *🅶🅸🆃🅷🆄🅱 🆁🅴🅿🅾 -*https://github.com/Tharushaaaaa777/THARUSHA-XMD\n\n> *𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰 〽️𝙳*`;
+                            let desc = `*👋𝐒𝐇𝐎𝐍𝐔-𝐗-𝐌𝐃 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 . . .*\n\n*🅳🅾🅽'🆃 🆂🅷🅰🆁🅴 🆃🅷🅸🆂 🅲🅾🅳🅴 🆆🅸🆃🅷 🅰🅽🆈🅾🅽🅴!*\n\n*ꜱʀɪ ʟᴀɴᴋᴀɴ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ - ᴍʀ.ʟᴀᴋꜱʜᴀɴ ᴅᴀᴍᴀʏᴀɴᴛʜᴀ.*\n\n🔰 *🅹🅾🅸🅽 -*https://whatsapp.com/channel/0029Vb5pvxO9cDDeMveqo31B\n\n🔰 *🅶🅸🆃🅷🆄🅱 🆁🅴🅿🅾 -*https://github.com/username/repo name\n\n> *𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙷𝙾𝙽𝚄 𝚇 〽️𝙳*;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴛʜᴀʀᴜꜱʜᴀ-ᴍᴅ",
+title: "ꜱʜᴏɴᴜ-x-ᴍᴅ",
 thumbnailUrl: "https://i.ibb.co/5gQ13m8p/0ef38c1555c87f01.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5pvxO9cDDeMveqo31B",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
